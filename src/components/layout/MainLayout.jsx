@@ -1,10 +1,13 @@
 import { Outlet } from "react-router-dom";
 import { Box } from "@mui/material";
 
+import GlobalLoading from "../common/GlobalLoading";
+
 const MainLayout = () => {
   return (
     <>
       {/* global loading */}
+      <GlobalLoading />
 
       {/* login modal */}
 
